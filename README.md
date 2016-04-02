@@ -76,7 +76,7 @@ We have two Verilog files in the repo. Both are designed for the same objectives
 - ```single_cycle_v11_sim.v``` is reserved for Xilinx software simulations only. This version sets clock divider to expect a significantly slower clock input. We also left an extra 32-bit ```reg_read_data_1``` port open for diagnostic purposes.
 
 ## Pipeline Processor
-A pipeline version was designed to execute the same MIPS instructions. Source code for that project is available on [GitHub](http://www.hxing.me/academics).
+A pipeline version was designed to execute the same MIPS instructions. Source code for that project is available on [GitHub](https://github.com/hxing9974/Verilog-Pipeline-Processor.git).
 
 ## Credits
 This project is executed in a three-person team. Junqi Qian and Xinyue Ou are among the best engineers I have worked with. I could not have done it without them.
