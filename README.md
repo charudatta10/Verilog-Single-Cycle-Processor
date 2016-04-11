@@ -6,7 +6,7 @@ The objective is to design and implement a single cycle MIPS computer in Verilog
 - Arithmetic-logical instructions ```add```, ```addi```, ```sub```, ```and```, ```andi```, ```or```, and ```slt```
 - Jumping instructions branch-equal ```beq``` and jump ```j```
 
-A rough schematic description of the single cycle computer is available here: ![Single Cycle Schematics](http://undergrad.hxing.me/VE370/Single+Cycle+Schematics.png?x-source=github) However, the picture is **NOT an exhaustive** description of the architecture we designed.
+A rough schematic description of the single cycle computer is available here: ![Single Cycle Schematics](https://undergrad.hxing.me/VE370/Single+Cycle+Schematics.png?x-source=github) However, the picture is **NOT an exhaustive** description of the architecture we designed.
 
 ## MIPS Instructions
 32 lines of MIPS instructions are hard-coded into the program. More specifically, into the Instruction-Memory module.
@@ -61,14 +61,14 @@ Package: FG320
 Speed: -4
 ```
 
-with an executable BIT file generated **specifically** for the hardware listed above. Download BIT file [here](http://undergrad.hxing.me/VE370/single_cycle.bit?x-source=github).
+with an executable BIT file generated **specifically** for the hardware listed above. Download BIT file [here](https://undergrad.hxing.me/VE370/single_cycle.bit?x-source=github).
 
-Digilent NEXYS2 hardware [PIN assignment](http://undergrad.hxing.me/VE370/PIN+Assignment.png?x-source=github) is based on [Digilent Nexys2 FPGA Board Manual](http://undergrad.hxing.me/VE270/Digilent+Nexys2+Manual.pdf?x-source=github-project=ve370singlecycle).
+Digilent NEXYS2 hardware [PIN assignment](https://undergrad.hxing.me/VE370/PIN+Assignment.png?x-source=github) is based on [Digilent Nexys2 FPGA Board Manual](https://undergrad.hxing.me/VE270/Digilent+Nexys2+Manual.pdf?x-source=github-project=ve370singlecycle).
 
 ## Manual & Report
 The code is designed for a school project.
-- [Project Manual](http://undergrad.hxing.me/VE370/Project+II+Manual.pdf?x-source=github)
-- [Project Report](http://undergrad.hxing.me/VE370/Project+II+Report.pdf?x-source=github)
+- [Project Manual](https://undergrad.hxing.me/VE370/Project+II+Manual.pdf?x-source=github)
+- [Project Report](https://undergrad.hxing.me/VE370/Project+II+Report.pdf?x-source=github)
 
 ## Two Versions
 We have two Verilog files in the repo. Both are designed for the same objectives.
